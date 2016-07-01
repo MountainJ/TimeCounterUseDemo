@@ -23,7 +23,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.view.backgroundColor = [UIColor redColor];
-    
+    //计时器快速生成
     self.verifyCodeBtn = [ZYControlCreationTool buttonWithFrame:CGRectMake(50, 100, 100, 50) backGroundColor:[UIColor blueColor] textColor:[UIColor whiteColor] clickAction:@selector(startCountTime) clickTarget:self addToView:self.view buttonText:@"获取验证码"];
     
 }
